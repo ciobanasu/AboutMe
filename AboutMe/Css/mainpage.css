@@ -1,0 +1,167 @@
+body
+{
+    background: url(../Photos/forest.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    margin-left: 10%;
+    font-family: "Apple SD Gothic Neo";
+}
+
+div.menu
+{
+    width: 100%;
+    display: flex;
+}
+
+ul
+{
+    margin:0 auto;
+    display: block;
+    padding: 0;
+    list-style: none;
+}
+
+ul li
+{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 2px;
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+ul li a:hover
+{
+    background-color: green;
+}
+
+ul li ul li
+{
+    display: none;
+}
+
+ul li:hover ul li
+{
+    display: block;
+}
+
+<!--
+div.coder h3.include
+{
+    margin-top: 20%;
+    animation: type 7s;
+    overflow: hidden;
+    white-space: nowrap;
+    align-content: center;
+    width: 22ch;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 22ch;
+    }
+}
+
+div.coder h3.intmain
+ {
+     animation: type2 17s;
+     overflow: hidden;
+     white-space: nowrap;
+     align-content: center;
+     width: 22ch;
+ }
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 22ch;
+    }
+}
+
+div.coder h3.ac1
+{
+    animation: type3 35s;
+    overflow: hidden;
+    white-space: nowrap;
+    align-content: center;
+    width: 22ch;
+}
+
+@keyframes type3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 22ch;
+    }
+}
+
+div.coder h3.printf
+{
+    animation: type4 8s;
+    overflow: hidden;
+    white-space: nowrap;
+    align-content: center;
+    width: 22ch;
+}
+
+@keyframes type4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 22ch;
+    }
+}
+
+div.coder h3.return
+{
+    animation: type5 15s;
+    overflow: hidden;
+    white-space: nowrap;
+    align-content: center;
+    width: 22ch;
+}
+
+@keyframes type5 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 22ch;
+    }
+}
+
+div.coder h3.ac2
+{
+    animation: type6 35;
+    overflow: hidden;
+    white-space: nowrap;
+    align-content: center;
+    width: 22ch;
+}
+
+@keyframes type6 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 22ch;
+    }
+}
